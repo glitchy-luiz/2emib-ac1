@@ -1,9 +1,10 @@
+![GitHub](https://img.shields.io/github/license/glitchy-luiz/2emib-ac1)
 # 2emib-ac1
 Projeto de um sistema full stack
 ## Alunos
+- `Luiz Fernando de Aragão Souza`
 - Gustavo Pasquini Lucas
 - Lorenzo Adinolfi Acquesta
-- Luiz Fernando de Aragão Souza
 - Matheus Yan Leite Gallerani
 ## Tema do projeto
 Uma plataforma de venda de cursos.

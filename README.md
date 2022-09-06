@@ -1,5 +1,5 @@
 ![GitHub](https://img.shields.io/github/license/glitchy-luiz/2emib-ac1)
-# 2emib-ac1
+# Cursonex
 Projeto de um sistema full stack
 ## Alunos
 - `Luiz Fernando de Aragão Souza`

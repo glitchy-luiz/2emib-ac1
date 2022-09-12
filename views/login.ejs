@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <h1>Entrar</h1>
+    <form action="" method="POST" class="form-control">
+        <input type="email" name="email" id="" class="form-control" placeholder="email">
+        <div class="input-group">
+        <input type="password" name="senha" id="senha" class="form-control" placeholder="senha">
+        <i class="bi bi-eye-fill btn btn-dark" id="troca"></i></div>
+        <input type="submit" value="Entrar" class="btn btn-info">
+    </form>
+    <a href="/cadastro"class="btn btn-info botao">Cadastrar</a>
+    
+    <script>
+        var trocaTipo = document.querySelector('#troca')
+        var senha = document.querySelector("#senha")
+
+        trocaTipo.addEventListener('click',()=>{
+            var tipo = senha.getAttribute("type") === "password" ?
+            "text" : "password"
+            senha.setAttribute("type",tipo)
+            trocaTipo.classList.toggle("bi-eye-slash-fill")
+        })
+
+    </script>
+</body>
+</html>

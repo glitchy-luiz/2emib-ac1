@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
 body{
-    background-color: #00ffff;
+    font-family: 'ABeeZee', sans-serif;
+}
+.linha{
+    display: flex;
+    flex-direction: row;
 }

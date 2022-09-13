@@ -1,26 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
-body{
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+
+*{
+    background-color: white;
+    color: #6823F7;
+
+    padding: 0;
+    margin: 0;
+
     font-family: 'ABeeZee', sans-serif;
 }
-.linha{
+
+.background img{
+    width: 100%;
+    position: relative;
+}
+
+.navbar{
+    position: absolute;
+    width: 100%;
+    top:-1px;
     display: flex;
     flex-direction: row;
+    padding: 1rem;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: 'ABeeZee', sans-serif;
 }
-.topo{
-    margin-top: 21px;
-    color: #6823F7;
-    margin-left: 20px;
+.textos ul{
+    padding-left: 10rem;
+    display: flex;
+    flex-direction: row;
+
 }
-.ptop1{
-    margin-left: 100px;
-}
-.ptop2{
-    margin-left: 30px;
-}
-.pesquisa{
-    margin-left: 200px;
-    color: #6823F7;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #6823F7;
+
+.textos li{
+    padding-left: 1rem;
+
 }

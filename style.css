@@ -1,39 +1,227 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
 
 *{
-    background-color: white;
-    color: #6823F7;
-
-    padding: 0;
+    box-sizing: border-box;
     margin: 0;
+    padding: 0;
 
     font-family: 'ABeeZee', sans-serif;
 }
 
-.background img{
-    width: 100%;
-    position: relative;
+.bg-image{
+    max-width: 100%;
 }
 
-.navbar{
-    position: absolute;
+.bg-image img{
     width: 100%;
-    top:-1px;
-    display: flex;
-    flex-direction: row;
-    padding: 1rem;
-    font-weight: 800;
+    height: 70% ;
+}
+
+nav{
+    background: #fff;
+    padding: 5px 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    color: #6823F7;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.menu li{
+    font-size: 16px;
+    padding: 15px 5px;
+}
+.meni li a{
+    display: block;
+}
+.logo a{
     font-size: 20px;
-    font-family: 'ABeeZee', sans-serif;
 }
-.textos ul{
-    padding-left: 10rem;
+.button.sevundary{
+    border-bottom: 1px #6823F7 solid;
+}
+
+/* Mobile Menu*/
+
+.menu{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggle{
+    order: 1;
+}
+.item.button{
+    order: 2;
+}
+
+.item{
+    width: 100%;
+    text-align: center;
+    order: 3;
+    display: none;
+}
+
+.item.active{
+    display: block;
+}
+
+.toggle{
+    cursor: pointer;
+}
+
+.bars{
+    background: #581dcc;
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    width: 18px;
+}
+
+.bars::before,.bars::after{
+    background: #581dcc;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: absolute;
+    width: 18px;   
+}
+
+.bars:before{
+    top:5px
+}
+.bars:after{
+    top:-5px
+}
+
+/* tablet menu*/
+
+@media all and (min-width:468px){
+    .menu{
+        justify-content: center;
+    }
+
+    .logo{
+        flex: 1;
+    }
+
+    .item.button{
+        width: auto;
+        order: 1;
+        display: block;
+    }
+
+    .toggle{
+        order: 2;
+    }
+
+    .button.secondary{
+        border: 0;
+    }
+
+    .button a {
+        text-decoration: none;
+        padding: 7px 15px;
+        background: #fff;
+        border: 1px solid #581dcc;
+        border-radius: 10px;
+    }
+
+    .button.secondary a{
+        background: transparent;
+    }
+
+    .button a:hover{
+        transition: all .5s;
+    }
+
+    .button a:hover{
+        background: #6823F7;
+        color: #fff;
+    }
+
+    .main h1{  
+        font-style: italic;
+        font-weight: 400;
+        line-height: 40px;
+        font-size: 80px;
+    }
+    
+    .main h2{
+        font-size: 20px;
+        padding-top: 1rem;
+        font-weight: 300;
+    }
 
 }
 
-.textos li{
-    padding-left: 1rem;
+/* Desktop */
 
+@media all and (min-width:768px){
+    .item{
+        display: block;
+        width: auto;
+    }
+    .toggle{
+        display: none;
+    }
+    .logo{
+        order:0;
+    }
+    .item{
+        order: 1;
+    }
+    .button{
+        order: 2;
+    }
+    .menu li{
+        padding: 15px 10px;
+    }
+    .menu li.button{
+        padding-right: 0;
+    }
+}
+
+.main{
+    position: absolute;
+    width: 40%;
+    left: 40px;
+    top: 125px;
+    color: #fff;
+}
+
+.main h1{  
+    font-style: italic;
+    font-weight: 400;
+    line-height: 35px;
+    font-size: 25px;
+}
+
+.main h2{
+    font-size: 16px;
+    padding-top: 1rem;
+    font-weight: 300;
+}
+
+.text-cursos{
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.cards{
+    padding: 1rem;
+    width: 150px;
+    text-align: center;
+}
+.programacao svg{
+    width: 100px;
+    height: 100px;
 }

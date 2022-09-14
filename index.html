@@ -4,31 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CursoNexus</title>
+    <!-- CSS only -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css%22%3E">
+    <script>
+
+        $(function(){
+            $(".toggle").on("click", function(){
+
+                if($(".item").hasClass("active")){
+                    $(".item").removeClass("active");
+                }
+                else{
+                    $(".item").addClass("active");
+                }
+            })
+        })
+
+    </script>
+
 </head>
 <body>
     <div class="container">
-        <div class="background">
-            <img src="https://images.pexels.com/photos/1824273/pexels-photo-1824273.jpeg?cs=srgb&dl=pexels-victor-miyata-1824273.jpg&fm=jpg" alt="">
+
+       <nav>
+            <ul class="menu">
+                <li class="logo"><a href="#">CursosNexus</a></li>
+                <li class="item"><a href="#">Início</a></li>
+                <li class="item"><a href="#">Nossos Cursos</a></li>
+                <li class="item"><a href="#">Curssos da Comunidade</a></li>
+                <li class="item button"><a href="#">Login</a></li>
+                <li class="item button secondary"><a href="#">Sing Up</a></li>
+                <li  class="toggle"><span class="bars"></span></li>
+            </ul>
+       </nav>
+
+       <div class="bg-image">
+            <img src="/images/pexels-victor-miyata-1824273.jpg" alt="">
         </div>
-        <div class="navbar">
-            <div class="marca">
-                <h1>Cursonexus</h1>
+        <div class="main">
+            <h1 class="text-main">Você pode cadastrar seus próprios cursos online</h1>
+            <h2 class="subtext-main">Seja um colaborador</h2>
+        </div>
+        <div class="cursos">
+            <div class="text-cursos">
+                <h2 class="curso-h2">Nossos Cursos</h2>
+                <h3 class="curso">Todos os melhores cursos que você precisa</h3>
             </div>
-            <div class="textos">
+            <div class="cards-cursos">
                 <ul>
-                    <li>Nossos Cursos </li>
-                    <li>Cursos da Comunidade</li>
-                    <li>Sobre nós</li>
+                    <li class="cards">
+                        <div class="programacao">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+                                <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+                            </svg>
+                            <p>Cursos de diversas linguagens de programação</p>
+                            <h3>Saiba mais ></h3>
+                        </div>
+                    </li>
+                    <li class="cards"></li>
+                    <li class="cards"></li>
+                    <li class="cards"></li>
                 </ul>
-            </div>
-            <div class="pesquisa">
-                <div class="text-pesquisa">
-                    <h3>Pesquisar</h3>
-                </div>
-                <div class="icon-pesquisa"></div>
             </div>
         </div>
     </div>

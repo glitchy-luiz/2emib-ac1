@@ -17,6 +17,10 @@
     height: 70% ;
 }
 
+.logo img{
+  width: 120px;
+}
+
 nav{
     background: #fff;
     padding: 5px 20px;

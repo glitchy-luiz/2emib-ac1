@@ -107,8 +107,11 @@ a:hover{
 }
 
 .main{
-    position: absolute;
-    width: 40%;
+  background-image: url('/images/pexels-victor-miyata-1824273.jpg');
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
     left: 40px;
     top: 100px;
     color: #fff;
@@ -119,12 +122,16 @@ a:hover{
     font-weight: 400;
     line-height: 20px;
     font-size: 20px;
+    width: 50%;
+    padding-left: 2rem;
+    padding-top: 5rem;
 }
 
 .main h2{
     font-size: 16px;
-    padding-top: 1rem;
+    top: 1rem;
     font-weight: 300;
+    padding-left: 2rem;
 }
 
 .cursos{
@@ -138,7 +145,7 @@ a:hover{
 
 .cards-cursos li{
     display: flex;
-    padding-left: 35%;    
+    padding-left: 5rem;    
 }
 
 .cards{
@@ -328,6 +335,9 @@ a:hover{
         color: #fff;
     }
 
+    .main{
+      height: 50vh;
+    }
     
     .main h1{
         padding-top: 6rem;
@@ -386,4 +396,49 @@ a:hover{
         display: flex;
         padding-left: 0%;    
     } 
+}
+
+.slider{
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.slides{
+  width: 500%;
+  height: 500px;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+}
+
+.slides input{
+  display: none;
+}
+
+.slide{
+  width: 20%;
+  transition: 2s;
+}
+
+.slide img{
+  width: 800px;
+  height: 500px;
+}
+
+.navagation-manual{
+  position: absolute;
+  width: 800px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn{
+  border: 2px solid #FFF;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1S;
 }

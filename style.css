@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 
     font-family: 'ABeeZee', sans-serif;
 }
@@ -36,6 +37,10 @@ a{
 }
 a:hover{
     text-decoration: underline;
+}
+.menu{
+  margin: 0;
+  padding: 0;
 }
 .menu li{
     font-size: 16px;
@@ -289,115 +294,6 @@ a:hover{
     }
   }
 
-/* tablet menu*/
-
-@media all and (min-width:468px){
-    .menu{
-        justify-content: center;
-    }
-
-    .logo{
-        flex: 1;
-    }
-
-    .item.button{
-        width: auto;
-        order: 1;
-        display: block;
-    }
-
-    .toggle{
-        order: 2;
-    }
-
-    .button.secondary{
-        border: 0;
-    }
-
-    .button a {
-        text-decoration: none;
-        padding: 7px 15px;
-        background: #fff;
-        border: 1px solid #581dcc;
-        border-radius: 10px;
-    }
-
-    .button.secondary a{
-        background: transparent;
-    }
-
-    .button a:hover{
-        transition: all .5s;
-    }
-
-    .button a:hover{
-        background: #6823F7;
-        color: #fff;
-    }
-
-    .main{
-      height: 80vh;
-    }
-    
-    .main h1{
-        padding-top: 6rem;
-        line-height: 30px;
-        font-size: 25px;
-    }
-
-}
-
-/* Desktop */
-
-@media all and (min-width:768px){
-    .item{
-        display: block;
-        width: auto;
-    }
-    .toggle{
-        display: none;
-    }
-    .logo{
-        order:0;
-    }
-    .item{
-        order: 1;
-    }
-    .button{
-        order: 2;
-    }
-    .menu li{
-        padding: 15px 10px;
-    }
-    .menu li.button{
-        padding-right: 0;
-    }
-
-    .main h1{
-        padding-top: 10rem;
-        line-height: 30px;
-        font-size: 35px;
-    }
-    
-}
-
-/* Desktop - 2 */
-
-@media all and (min-width:1214px){
-    .main h1{
-        padding-top: 15rem;
-        line-height: 35px;
-        font-size: 40px;
-    }
-}
-
-@media all and (min-width:600px){
-    .cards-cursos li{
-        display: flex;
-        padding-left: 0%;    
-    } 
-}
-
 /* Image Slide */
 
 .slider{
@@ -503,13 +399,49 @@ a:hover{
   background: #fff;
 }
 
+.criar-cursos{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 15px;
+}
 
-/* Mobile image slide */
+.criar-cursos input{
+  width: 10rem;
+}
+
+.nossos-cursos{
+  padding: 15px;
+}
+
+.card-img-top{
+  height: 11rem;
+  width: 11rem;
+}
+
+.noticias{
+  padding: 15px;
+}
+
+.parte-1 img{
+  width: 100%;
+  height: 20rem;
+}
+
+.parte-1 p{
+  padding-top: 1rem;
+}
+
+.card{
+  width: 18rem;
+}
+
+/* Mobile */
 
 @media all and (max-width:468px){
   
-  .slides{
-    height: 80vh;
+  .slider{
+    height: 70vh;
   }
 
   .slide img{
@@ -519,4 +451,129 @@ a:hover{
   .navagation-auto{
     margin-top: 385px;
   }
+
+  .navagation-manual{
+    margin-top: -115px;
+  }
+
+  .criar-cursos{
+    width: 100%;
+  }
+}
+
+/* tablet */
+
+@media all and (min-width:468px){
+    .menu{
+        justify-content: center;
+    }
+
+    .logo{
+        flex: 1;
+    }
+
+    .item.button{
+        width: auto;
+        order: 1;
+        display: block;
+    }
+
+    .toggle{
+        order: 2;
+    }
+
+    .button.secondary{
+        border: 0;
+    }
+
+    .button a {
+        text-decoration: none;
+        padding: 7px 15px;
+        background: #fff;
+        border: 1px solid #581dcc;
+        border-radius: 10px;
+    }
+
+    .button.secondary a{
+        background: transparent;
+    }
+
+    .button a:hover{
+        transition: all .5s;
+    }
+
+    .button a:hover{
+        background: #6823F7;
+        color: #fff;
+    }
+
+    .main{
+      height: 80vh;
+    }
+    
+    .main h1{
+        padding-top: 6rem;
+        line-height: 30px;
+        font-size: 25px;
+    }
+
+    .card{
+      width: 10rem;
+    }
+
+}
+
+/* Desktop */
+
+@media all and (min-width:768px){
+    .item{
+        display: block;
+        width: auto;
+    }
+    .toggle{
+        display: none;
+    }
+    .logo{
+        order:0;
+    }
+    .item{
+        order: 1;
+    }
+    .button{
+        order: 2;
+    }
+    .menu li{
+        padding: 15px 10px;
+    }
+    .menu li.button{
+        padding-right: 0;
+    }
+
+    .main h1{
+        padding-top: 10rem;
+        line-height: 30px;
+        font-size: 35px;
+    }
+    
+    .card{
+      width: 30%;
+    }
+
+}
+
+/* Desktop - 2 */
+
+@media all and (min-width:1214px){
+    .main h1{
+        padding-top: 15rem;
+        line-height: 35px;
+        font-size: 40px;
+    }
+}
+
+@media all and (min-width:600px){
+    .cards-cursos li{
+        display: flex;
+        padding-left: 0%;    
+    } 
 }

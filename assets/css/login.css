@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+    font-family: 'ABeeZee', sans-serif;
+}
+
+
+nav{
+    background: #fff;
+    padding: 5px 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    color: #6823F7;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.menu{
+  margin: 0;
+  padding: 0;
+}
+.menu li{
+    font-size: 16px;
+    padding: 15px 5px;
+}
+.meni li a{
+    display: block;
+}
+.logo a{
+    font-size: 20px;
+}
+.button.sevundary{
+    border-bottom: 1px #6823F7 solid;
+}
+
+/* Mobile Menu*/
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggle{
+    order: 1;
+}
+.item.button{
+    order: 2;
+}
+
+.item{
+    width: 100%;
+    text-align: center;
+    order: 3;
+    display: none;
+}
+
+.item.active{
+    display: block;
+}
+
+.toggle{
+    cursor: pointer;
+}
+
+.bars{
+    background: #581dcc;
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    width: 18px;
+}
+
+.bars::before,.bars::after{
+    background: #581dcc;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: absolute;
+    width: 18px;   
+}
+
+.bars:before{
+    top:5px
+}
+.bars:after{
+    top:-5px
+}
+
+  /* Mobile */
+  
+  @media all and (max-width:468px){
+    
+    .slider{
+      height: 70vh;
+    }
+  
+    .slide img{
+      height: 100%;
+    }
+  
+    .navagation-auto{
+      margin-top: 385px;
+    }
+  
+    .navagation-manual{
+      margin-top: -115px;
+    }
+  
+    .criar-cursos{
+      width: 100%;
+    }
+  }
+  
+  /* tablet */
+  
+  @media all and (min-width:468px){
+      .menu{
+          justify-content: center;
+      }
+  
+      .logo{
+          flex: 1;
+      }
+  
+      .item.button{
+          width: auto;
+          order: 1;
+          display: block;
+      }
+  
+      .toggle{
+          order: 2;
+      }
+  
+      .button.secondary{
+          border: 0;
+      }
+  
+      .button a {
+          text-decoration: none;
+          padding: 7px 15px;
+          background: #fff;
+          border: 1px solid #581dcc;
+          border-radius: 10px;
+      }
+  
+      .button.secondary a{
+          background: transparent;
+      }
+  
+      .button a:hover{
+          transition: all .5s;
+      }
+  
+      .button a:hover{
+          background: #6823F7;
+          color: #fff;
+      }
+  
+      .main{
+        height: 80vh;
+      }
+      
+      .main h1{
+          padding-top: 6rem;
+          line-height: 30px;
+          font-size: 25px;
+      }
+  
+      .card{
+        width: 10rem;
+      }
+  
+  }
+  
+  /* Desktop */
+  
+  @media all and (min-width:768px){
+      .item{
+          display: block;
+          width: auto;
+      }
+      .toggle{
+          display: none;
+      }
+      .logo{
+          order:0;
+      }
+      .item{
+          order: 1;
+      }
+      .button{
+          order: 2;
+      }
+      .menu li{
+          padding: 15px 10px;
+      }
+      .menu li.button{
+          padding-right: 0;
+      }
+  
+      .main h1{
+          padding-top: 10rem;
+          line-height: 30px;
+          font-size: 35px;
+      }
+      
+      .card{
+        width: 30%;
+      }
+  
+  }
+  
+  /* Desktop - 2 */
+  
+  @media all and (min-width:1214px){
+      .main h1{
+          padding-top: 15rem;
+          line-height: 35px;
+          font-size: 40px;
+      }
+  }
+  
+  @media all and (min-width:600px){
+      .cards-cursos li{
+          display: flex;
+          padding-left: 0%;    
+      } 
+      .cur{
+            border: 3px solid #000;
+            padding: 20px 30px;
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 30px;
+            margin-right: 50px;
+            margin-left: 50px;
+      }
+  }
+  
+
+
+.cadastro{
+    max-width: 50%;
+    margin-left: 25px;
+    padding: 20px 20px;
+    border: 2px solid #000;
+    min-width: 50%;
+}
+
+.formcad{
+    margin: 25px;
+}
+@media (min-width: 992px) {
+.cursim{
+    display: flex;
+}
+}
+
+.cursim2{
+    margin: 15px;
+}
+.titcur{
+    margin-top: 40px;
+}
+.cur{
+    border: 2px solid #000;
+    padding: 20px 30px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    margin-left: 40px;
+}
+
+.curtotaish{
+    display: flex;
+}
+
+@media (max-width: 992px) {
+    .cadastro{
+        max-width: 90%;
+        margin-left: 25px;
+        padding: 20px 20px;
+        border: 3px solid #000;
+        min-width: 50%;
+    }
+
+    .cur{
+        border: 3px solid #000;
+        padding: 20px 30px;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+}
+@media (max-width: 576px) {
+    .cur{
+        border: 3px solid #000;
+        padding: 20px 30px;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        margin-right: 30px;
+        margin-left: 5px;
+    }
+}
+
+.titlogin{
+    text-align: center;
+    margin: 80px;
+}
+

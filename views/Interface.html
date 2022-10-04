@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CursoNexus</title>
+    <link rel="icon" href="/images/Logo-removebg-preview.png">
+    <script>
+
+        $(function(){
+            $(".toggle").on("click", function(){
+
+                if($(".item").hasClass("active")){
+                    $(".item").removeClass("active");
+                }
+                else{
+                    $(".item").addClass("active");
+                }
+            })
+        })
+
+    </script>
+
+</head>
+<body>
+    <div class="tudo">
+
+       <nav>
+            <ul class="menu">
+                <li class="logo"><a href="#"><img class="logo" src="/images/Group.svg" alt=""></a></li>
+                <li class="item"><a href="#">Início</a></li>
+                <li class="item"><a href="#">Nossos Cursos</a></li>
+                <li class="item"><a href="#">Curssos da Comunidade</a></li>
+                <li class="item button"><a href="#">Login</a></li>
+                <li class="item button secondary"><a href="#">Sing Up</a></li>
+                <li  class="toggle"><span class="bars"></span></li>
+            </ul>
+       </nav>
+        
+       <div class="slider">
+
+        <div class="slides">
+
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <input type="radio" name="radio-btn" id="radio5">
+
+            <div class="slide first">
+                <img src="/images/pexels-victor-miyata-1824273.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="/images/pexels-tae-fuller-1141853.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="/images/pexels-rijan-hamidovic-1680247.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="/images/pexels-peng-liu-169647.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="/images/pexels-erik-mclean-5868629.jpg" alt="">
+            </div>
+
+            <div class="navagation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+                <div class="auto-btn5"></div>
+            </div>
+
+        </div>
+
+        <div class="navagation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+            <label for="radio5" class="manual-btn"></label>
+        </div>
+
+       </div>
+
+       <div class="criar-cursos mt-3">
+        <div class="titulo-criar">
+            <h2>Crie seus próprios cursos</h2>
+        </div>
+        <div class="texto-criar">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, cupiditate laborum libero asperiores iste nemo quia quae culpa vitae magni aut? Accusamus in quidem, inventore rerum eos ab modi at! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam officiis adipisci numquam veritatis veniam delectus itaque impedit officia, corporis nemo dolorum obcaecati facilis minus magni eveniet consequuntur a enim asperiores!</p>
+        </div>
+        <input type="button" value="Criar">
+        </div>
+
+        <div class="nossos-cursos mt-3">
+            <h2>Nossos Cursos</h2>
+            <div class="row mt-2 " style="justify-content:space-around;">
+                <div class="card mt-5">
+                    <img src="/images/LogoInteiro.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card mt-5" >
+                    <img src="/images/LogoInteiro.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card mt-5">
+                    <img src="/images/LogoInteiro.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3" style="justify-content:space-around;">
+                <div class="card mt-5" >
+                    <img src="/images/LogoInteiro.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card mt-5" >
+                    <img src="/images/LogoInteiro.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card mt-5">
+                    <img src="/images/LogoInteiro.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="noticias">
+            <div class="parte-1">
+                <img src="/images/pexels-victor-miyata-1824273.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ex? Reprehenderit doloribus vero dolorum quod, numquam provident consectetur accusantium est facere asperiores minus, atque neque, animi totam quas laborum delectus?</p>
+            </div>
+            <div class="row" style="justify-content:space-around;">
+                <div class="card mt-3">
+                    <img src="/images/LogoInteiro.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                  <div class="card mt-3">
+                    <img src="/images/LogoInteiro.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript">
+
+        var counter = 1;
+
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked = true ;
+            counter ++;
+            if(counter > 4){
+                counter = 1 ;
+            }
+        }, 5000);
+
+    </script>
+
+</body>
+</html>

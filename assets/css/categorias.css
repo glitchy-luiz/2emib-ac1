@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+h2, p {
+    font-family: 'ABeeZee', sans-serif;
+}
+
+h2{
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.card-categoria{
+    width: 90%;
+    margin: 20px;
+}
+
+.card-categoria img{
+    width: 100%;
+    height: 20%;
+    padding: 14px;
+}
+
+.body-categoria{
+    text-align: center;
+    padding: 1rem;
+    font-size: 12px;
+}
+
+.curso{
+    padding: 20px;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.curso-img{
+    width: 5rem;
+    right: 20px;
+}
+
+.curso-img img{
+    width: 100%;
+}
+
+@media all and (min-width:468px){
+
+    .categorias{
+        display: flex;
+    }
+
+    .card-categoria{
+        width: 40%;
+    } 
+    
+    .card-categoria img{
+        height: auto;
+    }
+}
+
+@media all and (min-width:768px){
+
+    .categorias{
+        width: 100%;
+    }
+
+    .card-categoria{
+        width: 50%;
+    } 
+
+    .row{
+        display: flex;
+    }
+}

@@ -1,0 +1,91 @@
+
+nav{
+    margin-bottom: 50px;
+}
+
+@media (max-width:1200) {
+    nav{
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .teste{
+        display: none;
+    }
+    .navtext{
+        margin-left: 650px;
+    }
+
+    .navlog{
+        margin-left: 100px;
+    }
+}
+
+.cadastro{
+    max-width: 50%;
+    margin-left: 25px;
+    padding: 20px 20px;
+    border: 2px solid #000;
+    min-width: 50%;
+}
+
+.formcad{
+    margin: 25px;
+}
+@media (min-width: 992px) {
+.cursim{
+    display: flex;
+}
+}
+
+.cursim2{
+    margin: 15px;
+}
+.titcur{
+    margin-top: 40px;
+}
+.cur{
+    border: 2px solid #000;
+    padding: 20px 30px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    margin-left: 40px;
+}
+
+.curtotaish{
+    display: flex;
+}
+
+@media (max-width: 992px) {
+    .cadastro{
+        max-width: 90%;
+        margin-left: 25px;
+        padding: 20px 20px;
+        border: 3px solid #000;
+        min-width: 50%;
+    }
+
+    .cur{
+        border: 3px solid #000;
+        padding: 20px 30px;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+}
+@media (max-width: 576px) {
+    .cur{
+        border: 3px solid #000;
+        padding: 20px 30px;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        margin-right: 30px;
+        margin-left: 5px;
+    }
+}

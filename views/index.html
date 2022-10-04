@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CursoNexus</title>
+    <!-- CSS only -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css%22%3E">
+    <link rel="icon" href="/images/Logo-removebg-preview.png">
+    <script>
+
+        $(function(){
+            $(".toggle").on("click", function(){
+
+                if($(".item").hasClass("active")){
+                    $(".item").removeClass("active");
+                }
+                else{
+                    $(".item").addClass("active");
+                }
+            })
+        })
+
+    </script>
+
+</head>
+<body>
+    <div class="container">
+
+       <nav>
+            <ul class="menu">
+                <li class="logo"><a href="#"><img class="logo" src="/images/Group.svg" alt=""></a></li>
+                <li class="item"><a href="#">Início</a></li>
+                <li class="item"><a href="#">Nossos Cursos</a></li>
+                <li class="item"><a href="#">Curssos da Comunidade</a></li>
+                <li class="item button"><a href="#">Login</a></li>
+                <li class="item button secondary"><a href="#">Sing Up</a></li>
+                <li  class="toggle"><span class="bars"></span></li>
+            </ul>
+       </nav>
+
+       <!--<div class="bg-image">
+            <img src="/images/pexels-victor-miyata-1824273.jpg" alt="">
+        </div>!-->
+        <div class="main">
+            <h1 class="text-main">
+                <span>Você</span> 
+                <span>pode</span>
+                <span>cadastrar</span> 
+                <span>seus</span>
+                <span>próprios</span>
+                <span>cursos</span>
+                <span>online</span>
+            </h1>
+            <div class="line">
+                <h2 class='lineUp bubtext-main'>Seja um colaborador</h2>
+            </div>
+        </div>
+        <div class="cursos">
+            <div class="text-cursos">
+                <h2 class="curso-h2">Nossos Cursos</h2>
+                <h3 class="curso">Todos os melhores cursos que você precisa</h3>
+            </div>
+            <div class="cards-cursos">
+                <ul class="menu-cards">
+                    <li class="cards">
+                        <div class="programacao">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+                                <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+                            </svg>
+                            <p>Cursos de diversas linguagens de programação</p>
+                            <h3>Saiba mais ></h3>
+                        </div>
+                    </li>
+                    <li class="cards">
+                        <div class="design">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-aspect-ratio" viewBox="0 0 16 16">
+                                <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"/>
+                                <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0v-3zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0v3z"/>
+                              </svg>
+                              <p>Melhores suas abilidades de desing de sites e templates</p>
+                              <h3>Saiba mais ></h3>
+                        </div>
+                    </li>
+                    <li class="cards">
+                        <div class="youtuber">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-reels" viewBox="0 0 16 16">
+                                <path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM1 3a2 2 0 1 0 4 0 2 2 0 0 0-4 0z"/>
+                                <path d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h7zm6 8.73V7.27l-3.5 1.555v4.35l3.5 1.556zM1 8v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1z"/>
+                                <path d="M9 6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM7 3a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                              </svg>
+                              <p>Faça os melhores vídeos para os melhores públicos</p>
+                              <h3>Saiba mais ></h3>
+                        </div>
+                    </li>
+                    <li class="cards">
+                        <div class="financas">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cash-stack" viewBox="0 0 16 16">
+                                <path d="M1 3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1H1zm7 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+                                <path d="M0 5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V5zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V7a2 2 0 0 1-2-2H3z"/>
+                              </svg>
+                            <p>Conheça todos os tipos de investimento que você pode fazer de casa</p>
+                            <h3>Saiba mais ></h3>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

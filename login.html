@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css%22%3E">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="login.css">
+    <title>CursoNex - Login</title>
+    <script>
+
+        $(function(){
+            $(".toggle").on("click", function(){
+
+                if($(".item").hasClass("active")){
+                    $(".item").removeClass("active");
+                }
+                else{
+                    $(".item").addClass("active");
+                }
+            })
+        })
+
+    </script>
+</head>
+<body>
+
+        <nav>
+             <ul class="menu">
+                 <li class="logo"><a href="index.html"><img class="logo" src="images/Group.svg" alt="#"></a></li>
+                 <li class="item"><a href="index.html">Início</a></li>
+                 <li class="item"><a href="#">Nossos Cursos</a></li>
+                 <li class="item"><a href="#">Cursos da Comunidade</a></li>
+                 <li class="item button secondary"><a href="cadastro.html">Cadastro</a></li>
+                 <li  class="toggle"><span class="bars"></span></li>
+             </ul>
+        </nav>
+
+    <div class="cursim">
+        <div class="cadastro">
+            <h4>Faça seu login</h4>
+            <p>Coloque suas credenciais</p>
+            <h2 class="titlogin">Login</h2>
+            <div class="formcad">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+                </div>               
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Senha</label>
+                    <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+                <div class="d-grid gap-2 col-6 mx-auto cor">
+                    <button class="btn btn-primary" type="button">Logar</button>
+                </div>
+            </div>
+        </div>
+
+        
+
+      <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+
+</body>
+</html>

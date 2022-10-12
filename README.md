@@ -1,6 +1,6 @@
 ![GitHub](https://img.shields.io/github/license/glitchy-luiz/2emib-ac1)
 # Cursonex
-Projeto de um sistema full stack
+Projeto de um sistema full stack que em breve será enviado para o heroku, com todos os sistemas de backend funcionando
 ## Alunos
 - `Luiz Fernando de Aragão Souza`
 - Gustavo Pasquini Lucas

@@ -15,7 +15,7 @@
 
 .bg-image img{
     width: 100%;
-    height: 70% ;
+    height: 60% ;
     position: absolute;
 }
 
@@ -113,9 +113,8 @@ a:hover{
 }
 
 .main{
-  background-image: url('/images/pexels-victor-miyata-1824273.jpg');
     width: 100%;
-    height: 60vh;
+    height: 70vh;
     background-size: cover;
     background-position: center;
     left: 40px;
@@ -150,8 +149,7 @@ a:hover{
 }
 
 .cards-cursos li{
-    display: flex;
-    padding-left: 5rem;    
+    display: flex;   
 }
 
 .cards{
@@ -168,9 +166,43 @@ a:hover{
 .menu-cards{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
+
+.footer{
+  border-top: 2px solid grey;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column{
+  padding: 2rem;
+}
+
+.column h3{
+  font-size: 20px;
+}
+
+.column h4{
+  padding-top: 1rem;
+} 
+
+.contato{
+ left: 2rem;
+}
+
+.introducao{
+  background-color: #581dcc;
+  color: #fff;
+  margin-top: 1.5rem;
+  padding: 2rem;
+}
+
+.introducao p{
+  margin-top: 10px;
+}
+
 
 
 /* Transition Text h1 */
@@ -509,7 +541,7 @@ a:hover{
     }
 
     .main{
-      height: 80vh;
+      height: 70vh;
     }
     
     .main h1{
@@ -558,6 +590,10 @@ a:hover{
     
     .card{
       width: 30%;
+    }
+
+    .bg-image img{
+      height: 70%;
     }
 
 }

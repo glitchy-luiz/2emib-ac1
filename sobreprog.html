@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre programação</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css%22%3E">
+    <link rel="icon" href="/images/Logo-removebg-preview.png">
+    <link rel="stylesheet" href="sobreprog.css">
+    <script>
+
+        $(function(){
+            $(".toggle").on("click", function(){
+
+                if($(".item").hasClass("active")){
+                    $(".item").removeClass("active");
+                }
+                else{
+                    $(".item").addClass("active");
+                }
+            })
+        })
+
+    </script>
+</head>
+<body>
+    <div class="container">
+
+        <nav>
+             <ul class="menu">
+                 <li class="logo"><a href="index.html"><img class="logo" src="images/Group.svg" alt=""></a></li>
+                 <li class="item"><a href="index.html">Início</a></li>
+                 <li class="item"><a href="#">Nossos Cursos</a></li>
+                 <li class="item"><a href="#">Cursos da Comunidade</a></li>
+                 <li class="item button"><a href="login.html">Login</a></li>
+                 <li class="item button secondary"><a href="cadastro.html">Sing Up</a></li>
+                 <li  class="toggle"><span class="bars"></span></li>
+             </ul>
+        </nav>
+        
+        <div class="mid">
+        <main>
+
+            <h1>Saiba mais sobre Design</h1>
+            <p class="p1">Nossa empresa é uma divulgadora e criadora de cursos, você conssegue criar seu proprio curso, e divulgar ele em nossa plataforma, você pode tambem comprar um de nosso cursos nexus, nossos cursos são feitos por profissionais que trazem todo o conhecimento que o assunto refere.</p>
+            <h2>Nossos cursos</h2>
+            <h3>GERENCIAMENTO DE OBRAS PARA ARQUITETOS E DESIGNERS</h3>
+            <p>Repassar conhecimentos práticos e teóricos sobre o gerenciamento de obras, com foco na organização dos trabalhos, gestão produtiva de pessoas e atualização constante de todas as equipes envolvidas, além do próprio gestor da construção, incluindo instruções sobre a legislação vigente, segurança do trabalho, modelos de contratos e custos envolvidos.            </p>
+            <img src="images/design.png" alt="curso-design">
+
+        </main>
+        </div>
+
+        <footer class="footer">
+            <div class="column equipe">
+                <h3>Equipe</h3>
+                <h4>Gustavo Pasquini</h4>
+                <h4>Lorenzo Asquesta</h4>
+                <h4>Luiz Fernando Aragão</h4>
+                <h4>Matheus Yan</h4>
+            </div>
+
+            <div class="column contato">
+                <h3>Contatos</h3>
+                <div class="row">
+                    <h4><a href="https://github.com/glitchy-luiz/2emib-ac1">
+                        
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                        </svg>
+
+                        Github
+                    
+                    </a></h4>
+                    <h4 class="email"><a href="">
+                        
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                        </svg>
+
+                        CursoNexus@gmal.com
+
+                    </a></h4>  
+                    <h4><a href="">
+                        
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                          </svg>
+
+                        (11) 97521132
+
+                    </a></h4>  
+                </div>
+            </div>
+    </footer>
+
+    </div>    
+</body>
+</html>

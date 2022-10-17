@@ -518,7 +518,7 @@ a:hover{
     }
 
     .card{
-      width: 17rem;
+      width: 10rem;
     }
 
 }
@@ -557,10 +557,6 @@ a:hover{
     
     .card{
       width: 30%;
-    }
-
-    .parte-1 img{
-      height: 70vh;
     }
 
 }

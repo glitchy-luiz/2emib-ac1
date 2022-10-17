@@ -12,7 +12,6 @@
 
 nav{
     background: #fff;
-    padding: 5px 20px;
 }
 
 ul{
@@ -97,6 +96,11 @@ a:hover{
 }
 .bars:after{
     top:-5px
+}
+
+.cor button{
+    border: none;
+    background-color: #581dcc;
 }
 
   /* Mobile */
@@ -240,7 +244,7 @@ a:hover{
           padding-left: 0%;    
       } 
       .cur{
-            border: 3px solid #000;
+            border: 3px solid #581dcc;
             padding: 20px 30px;
             text-align: center;
             margin-top: 40px;
@@ -253,15 +257,15 @@ a:hover{
 
 
 .cadastro{
-    max-width: 50%;
     margin-left: 25px;
     padding: 20px 20px;
-    border: 2px solid #000;
-    min-width: 50%;
+    border: .5px solid #581dcc;
+    border-radius: 10px;
+    min-width: 100%;
 }
 
 .formcad{
-    margin: 25px;
+    margin-top: 10%;
 }
 @media (min-width: 992px) {
 .cursim{
@@ -276,7 +280,7 @@ a:hover{
     margin-top: 40px;
 }
 .cur{
-    border: 2px solid #000;
+    border: 2px solid #581dcc;
     padding: 20px 30px;
     text-align: center;
     margin-top: 40px;
@@ -294,12 +298,12 @@ a:hover{
         max-width: 90%;
         margin-left: 25px;
         padding: 20px 20px;
-        border: 3px solid #000;
+        border: 3px solid #581dcc;
         min-width: 50%;
     }
 
     .cur{
-        border: 3px solid #000;
+        border: 3px solid gray;
         padding: 20px 30px;
         text-align: center;
         margin-top: 40px;
@@ -310,7 +314,7 @@ a:hover{
 }
 @media (max-width: 576px) {
     .cur{
-        border: 3px solid #000;
+        border: 3px solid gray;
         padding: 20px 30px;
         text-align: center;
         margin-top: 40px;
@@ -321,7 +325,5 @@ a:hover{
 }
 
 .titlogin{
-    text-align: center;
-    margin: 80px;
+    margin-top: 10%;
 }
-

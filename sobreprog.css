@@ -253,7 +253,76 @@ a:hover{
             margin-left: 50px;
       }
   }
-  .mid{
+
+h1{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+p{
+  display: flex;
+  justify-content: center;
+  padding: 20px 150px 20px 150px;
+}
+h2{
+  padding-left: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+h3{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.img1{
+  padding-left: 28%;
+  padding-right: 28%;
+}
+
+@media (max-width: 1000px){
+  .img1{
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+@media (max-width: 800px){
+  .img1{
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+@media (max-width: 730px){
+  .img1{
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+}
+@media (max-width: 660px){
+  .img1{
+    max-width: 600px;
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+}
+@media (max-width: 470px){
+  .img1{
+    visibility: hidden;
+  }
+
+}
+@media (max-width: 550px){
+  h3{
+    padding-left: 30px;
+  }
+}
+@media (max-width: 400px){
+  h2{
+    padding-left: 25%;
+  }
+
+}
+
+  /* .mid{
     display: flex;
     justify-content: center;
   }
@@ -281,6 +350,11 @@ a:hover{
   .p1{
     font-size: 20px;
   }
+
+  img{
+    display: block;
+    padding-left: 20%;
+  } */
   
   .footer{
     border-top: 2px solid grey;
@@ -315,8 +389,5 @@ a:hover{
     margin-top: 10px;
   }
 
-  img{
-    display: block;
-    padding-left: 20%;
-  }
+  
 

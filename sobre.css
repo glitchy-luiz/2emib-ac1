@@ -253,7 +253,9 @@ a:hover{
             margin-left: 50px;
       }
   }
-
+.p1{
+  font-size: 18px;
+}
 h1{
   color: #581dcc;
   display: flex;

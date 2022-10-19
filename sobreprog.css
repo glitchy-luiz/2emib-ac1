@@ -255,19 +255,20 @@ a:hover{
   }
 
 h1{
+  color: #581dcc;
   display: flex;
   justify-content: center;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 p{
   display: flex;
   justify-content: center;
-  padding: 20px 150px 20px 150px;
+  padding: 20px 150px 10px 150px;
 }
 h2{
   padding-left: 150px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 h3{
   display: flex;
@@ -389,5 +390,11 @@ h3{
     margin-top: 10px;
   }
 
-  
+  .back{
+    background-color: #581dcc;
+  }
 
+  .total{
+    margin: 3rem;
+    background-color: #fff;
+  }

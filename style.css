@@ -171,9 +171,15 @@ a:hover{
 }
 
 .footer{
-  border-top: 2px solid grey;
+  background-color: #15065A;
+  color: #fff;
   display: flex;
   justify-content: space-between;
+  margin-top: 2.5rem;
+}
+
+.footer h3, h4{
+  font-weight: 400;
 }
 
 .column{
@@ -192,27 +198,21 @@ a:hover{
  left: 2rem;
 }
 
-.introducao{
-  background-color: #581dcc;
-  color: #fff;
-  margin-top: 1.5rem;
-  padding: 2rem;
+.contato a{
+  color:#fff;
 }
 
-.introducao p{
-  margin-top: 10px;
-}
 
 .curso-comunidade-1{
   width: 20rem;
   background-color: #6823F7;
   color: #FFF;
-  margin: 1rem;
+  margin: auto;
+  margin-top: 1.5rem ;
   padding: 1.5rem;
   border-radius: 13px;
+  align-items: center;
 }
-
-.cursos-comunidade
 
 .curso-comunidade-1 img{
   width: 100%;
@@ -220,6 +220,34 @@ a:hover{
   margin-top: 30px;
   margin-bottom: 30px;
   border-radius: 12px;
+}
+
+.curso-comunidade-1 p{
+  line-height: 1.5rem;
+}
+
+.introducao{
+  background-color: #15065A;
+  color: #fff;
+  text-align: center;
+  padding: 3rem;
+}
+
+.introducao h3{
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+
+.cursos-comunidade{
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  padding-top: 1.5rem;
+}
+
+.introducao p{
+  padding-top: 1rem;
+  line-height: 2rem;
 }
 
 /* Transition Text h1 */
@@ -609,6 +637,14 @@ a:hover{
       width: 30%;
     }
 
+    .cards p{
+      width: 15rem;
+    }
+
+    .cards h3{
+      padding-top:1rem ;
+    }
+
     .bg-image img{
       height: 80%;
     }
@@ -616,6 +652,39 @@ a:hover{
     .cursos{
       padding-top: 7rem
     }
+
+    .cards-cursos{
+      padding: 3rem 0rem 3rem;
+    }
+
+    .introducao{
+      background-color: #15065A;
+      color: #fff;
+      text-align: center;
+      margin-top: 1.5rem;
+      padding: 4rem;
+    }
+
+    .introducao h3{
+      width: 80%;
+      margin: auto;
+      font-size: 30px;
+      font-weight: 400;
+    }
+
+    .sobre-nos p{
+      padding-top: 2rem;
+      line-height: 3.5rem;
+      width: 85%;
+      margin: auto;
+      font-size: 25px;
+      font-weight: 400;
+    }
+
+    .cursos-comunidade{
+      display: flex;
+    }
+
 }
 
 /* Desktop - 2 */

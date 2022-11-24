@@ -19,3 +19,8 @@ Projeto de um sistema full stack que em breve será enviado para o heroku, com t
 Uma plataforma de venda de cursos.
 
 Nosso projeto será um site de compra e venda de cursos em que o próprio usuário pode criar uma conta para pesquisar categorias de cursos, e cadastrar seus próprios cursos em nosso site 
+
+## Imagens Do Site
+
+<img src="https://github.com/glitchy-luiz/2emib-ac1/blob/main/images/ImageSite-1.png">
+<img src="https://github.com/glitchy-luiz/2emib-ac1/blob/main/images/ImageSite-2.png">
